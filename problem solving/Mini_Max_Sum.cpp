@@ -3,8 +3,8 @@
 #include <iostream>
 using namespace std;
 int main(){
-int arr[7];
-int small,large,i,s;
+long int arr[5];
+long int small,large,i,s;
 s=0;
 for (i=0;i<5;i++){
     
