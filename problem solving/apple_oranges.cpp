@@ -10,7 +10,8 @@ int main()
     int p, q;
     cin >> p;
     cin >> q;
-    int m[p], n[q];
+    int m[p];
+    int n[q];
 
     for (i = 0; i < p; i++)
     {
