@@ -1,3 +1,4 @@
+//not working as mentioned in the question but got the answer
 #include <iostream>
 using namespace std;
 void funct(int n)
@@ -16,7 +17,16 @@ void funct(int n)
 }
 int main(){
 
-    funct(5);
-
+    int i,arr[4],l;
+    for (i=0;i<4;i++){
+     cin>>arr[i];   
+    }
+    l=arr[0];
+    for (i=0;i<4;i++){
+        if (l<arr[i]){
+            l=arr[i];
+        }
+    }
+cout<<l;
     return 0;
 }
