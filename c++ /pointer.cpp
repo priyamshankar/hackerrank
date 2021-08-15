@@ -5,7 +5,7 @@ int add(int *a, int *b){
     return 0;
 }
 int sub(int *x, int *y){
-    cout<<|*y-*x|;
+    cout<<*y-*x;
     return 0;
 }
 int main(){
@@ -15,7 +15,11 @@ int main(){
 
     add(&q,&w);
     cout<<endl;
-    sub(&q,&w);
+    if ((w-q)>0){
+    sub(&q,&w);}
+    else {
+        cout<<q-w;
+    }
 
     return 0;
 }
