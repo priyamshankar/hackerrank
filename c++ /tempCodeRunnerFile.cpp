@@ -1,8 +1,2 @@
-if (a % 2 == 0)
-    // {
-    //     cout << "even"<<endl;
-    // }
-    // else
-    // {
-    //     cout << "odd"<<endl;
-    // }
+c11=c12;
+// c12=*ct;
